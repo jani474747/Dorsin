@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from '../src/Components/Navbar'
+import React from 'react';
+import LayoutPage from './Components/Pages/LayoutPage';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-    </div>
+    <LayoutPage/>
   );
 }
 
