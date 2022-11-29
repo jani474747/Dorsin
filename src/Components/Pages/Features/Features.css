@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin-bottom: 50px;
     background-color: #f8f9fa;
+    margin-top: 5%;
 }
 .feature {
     width: 60%;
@@ -38,6 +39,7 @@
 }
 .feature-one-1 li::before {
     color: red;
+    fill: var(--color, red);
     float: left;
     margin: -20px 0 0 -23px;
     width: 1px;
@@ -48,6 +50,7 @@
     text-decoration: none;
     padding: 12px 20px;
     background-color: red;
+    fill: var(--color, red);
     color: white;
     border-radius: 5px;
     position: relative;
@@ -131,8 +134,8 @@
 
     .feature { width: 100%; }
     .feature-one { flex-direction: column; }
-    .feature-one-1 {width: 100%; padding: 0;}
-    .feature-one-2 {width: 100%;}
+    .feature-one-1 {width: 90%; padding: 0;margin-left:20px}
+    .feature-one-2 {width: 100%; margin-top:10%}
     .feature-two-context {width: 100%;}
     .wave img {height: 22px;}
 

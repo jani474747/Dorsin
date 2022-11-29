@@ -12,7 +12,6 @@
 }
 .service-one-content {
     width: 60%;
-      
     margin:auto;
     margin-bottom: 30px;
     display: flex;
@@ -30,11 +29,11 @@
     width: 5%;
     height:2px;
     background-color: red;
+    fill: var(--color, red);
 }
 
 .service-two {
     width: 60%;
-    
     margin: auto;
       
 }
@@ -56,21 +55,27 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-      
     padding: 0 20px;
+    
 }
 .service-two-content span {
     width: 70px; height: 70px;
-    border: 1px solid red;
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    background-color:white;
 }
 .service-two-content i {
     font-size: 30px;
     color: red;
+    fill: var(--color, red);
+    
+    
+  
+    
 }
 .service-two-content2 {
     width: 33%; height:262px;
@@ -113,7 +118,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-      
     padding: 0 20px;
 }
 .service-two-content6 {
@@ -124,7 +128,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-      
     padding: 0 20px;
 }
 .service-two-content1, .service-two-content2,.service-two-content3,
@@ -138,6 +141,7 @@
 }
 .service-two-content1:hover span {
     background-color: red;
+    fill: var(--color, red);
 }
 .service-two-content1:hover i {
     color: white;
@@ -147,6 +151,7 @@
 }
 .service-two-content2:hover span {
     background-color: red;
+    fill: var(--color, red);
 }
 .service-two-content2:hover i {
     color: white;
@@ -156,6 +161,7 @@
 }
 .service-two-content3:hover span {
     background-color: red;
+    fill: var(--color, red);
 }
 .service-two-content3:hover i {
     color: white;
@@ -165,6 +171,7 @@
 }
 .service-two-content4:hover span {
     background-color: red;
+    fill: var(--color, red);
 }
 .service-two-content4:hover i {
     color: white;
@@ -174,6 +181,7 @@
 }
 .service-two-content5:hover span {
     background-color: red;
+    fill: var(--color, red);
 }
 .service-two-content5:hover i {
     color: white;
@@ -183,6 +191,7 @@
 }
 .service-two-content6:hover span {
     background-color: red;
+    fill: var(--color, red);
 }
 .service-two-content6:hover i {
     color: white;

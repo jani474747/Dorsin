@@ -1,5 +1,5 @@
 import './Home.css'
-// import Banner from '../Images/bg-home.jpg';
+import wave from '../Images/bg-pattern.png'
 
 function Home(){
     
@@ -11,7 +11,7 @@ function Home(){
                         <h1>We help startups launch their products</h1>
                         <p>Etiam sed.Interdum consequat proin vestibulum class at a euismod mus luctus quam.
                             Lorem ipsum dolor sit amet, consectetur adipisicing eli.</p>
-                        <a href="#">Get Started <i class="fas fa-arrow-alt-right"></i></a>
+                        <a href="#">Get Started <i className="fas fa-arrow-alt-right"></i></a>
                           
                     </div>
                     <div className="home-content-2">
@@ -20,6 +20,10 @@ function Home(){
                         </div>
 
                     </div>
+                </div>
+                <div className="wave">
+                    <img src= {wave} alt="song" />
+
                 </div>
                 
             </div>

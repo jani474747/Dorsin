@@ -8,6 +8,7 @@ import Features from './Features/Features'
 import Navbar from './Navbar/Navbar'
 import Home from './Home/Home'
 import Wave from './Wave/Wave'
+import Setcolor from '../SetColor/Setcolor'
 
 
 
@@ -17,6 +18,7 @@ const Router = () => {
       <Navbar/>
       <Home/>
       <Service/>
+      <Setcolor />
       <Features/>
       <Team/>
       <Pricing/>

@@ -1,35 +1,45 @@
-import { useState } from 'react';
+import { useState ,useRef} from 'react';
 import './Nav.css';
+import { scrollTo } from "react-scroll-to";
 
 
 function Navbar(){
     const [navbar,setNavbar] = useState(false)
     const [ans,setAns] = useState(true)
+    const ref = useRef(null)
     function changeBackground() {
-      
-        console.log(window.scrollY);
-        if(window.scrollY > 80){
-            setNavbar(true)
+        
+        // console.log(window.scrollY);
+    if(window.scrollY > 80){
+        setNavbar(true)
     }else {
         setNavbar(false)
     }
 }
-    window.addEventListener("scroll",changeBackground)
-    const ChonMenu =()=>{
-        if(ans===true){
-            document.getElementsByClassName("header-menu-gach")[0].style.display = "block";
-            setAns(false)
+window.addEventListener("scroll",changeBackground)
+const ChonMenu =()=>{
+    if(ans===true){
+        document.getElementsByClassName("header-menu")[0].style.display = "block";
+        setAns(false)
         }
         else {
-            document.getElementsByClassName("header-menu-gach")[0].style.display = "none";
+            document.getElementsByClassName("header-menu")[0].style.display = "none";
             setAns(true)
-
+            
         }
     }
-
+    // const handlescrollClick = () => {
+    //     window.scrollIntoView({behavior: 'smooth', spy : true
+    //     ,smooth : 'true'
+    //     ,offset : -70
+    //     ,duration : 500 });
+    // }
+    
+    
+    // window.scrollTo({ behavior: 'smooth', top: myRef.current.offsetTop })
     
     return (
-
+        
         <section>
             <div className={navbar ? "header" : "header-ac"}>
                 <div className="header-sub">
@@ -50,21 +60,23 @@ function Navbar(){
                         
                     </div>
                     <div className="menugach" onClick={ChonMenu}>
-                        <i class="fas fa-bars"></i>
+                        <i className="fas fa-bars"></i>
                     </div>
                 </div>
-                <div className="header-menu-gach">
+                {/* <div className="header-menu-gach" >
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Services</a></li>
+                            
+                            <li><a href="#" >Home</a></li>
+                            <li><a href="#" >Services</a></li>
                             <li><a href="#">Features</a></li>
                             <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#" >Team</a></li>
+                            <li><a href="#" >Blog</a></li>
+                            <li><a href="#" >Contact</a></li>
+                            
                         </ul>
                         <button className="btn-gach">Try It Free</button>
-                </div>
+                </div> */}
 
             </div>
         </section>

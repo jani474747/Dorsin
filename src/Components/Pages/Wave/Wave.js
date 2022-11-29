@@ -9,7 +9,7 @@ const Wave = () => {
                     <div className="team2-five-sub-context">
                         <h2>Let's Get Started</h2>
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the<br/> blind texts.</p>
-                        <a href="#">Get Started <i class="far fa-arrow-right"></i></a>
+                        <a href="#">Get Started <i className="far fa-arrow-right"></i></a>
                     </div>
                     
                 </div>

@@ -2,7 +2,7 @@
 #pricing {
     width: 100%;
     box-sizing: border-box;
-    
+    margin-top:5%;
 }
 .pricing {
     width: 60%; 
@@ -49,6 +49,7 @@
 }
 .pricing-two b {
     color:red;
+    fill: var(--color, red);
 }
 .pricing-two-1 {
     width: 31%; height:550px;
@@ -83,6 +84,7 @@
 }
 .pricing-two-1 a {
     background-color: red;
+    fill: var(--color, red);
     padding: 10px 14px;
     border-radius: 5px;
     text-decoration: none;
@@ -131,6 +133,7 @@
 }
 .pricing-two-2 a {
     background-color: red;
+    fill: var(--color, red);
     padding: 10px 14px;
     border-radius: 5px;
     text-decoration: none;
@@ -180,6 +183,7 @@
 }
 .pricing-two-3 a {
     background-color: red;
+    fill: var(--color, red);
     padding: 10px 14px;
     border-radius: 5px;
     text-decoration: none;

@@ -45,20 +45,20 @@ const  Contact = () => {
                         <div className="contact-three-sub">
                             <div className="contact-three-sub-1">
                                 <ul>
-                                    <li><i class="fab fa-facebook"></i></li>
-                                    <li><i class="fab fa-twitter-square"></i></li>
-                                    <li><i class="fab fa-instagram"></i></li>
-                                    <li><i class="fab fa-google-plus-g"></i></li>
-                                    <li><i class="far fa-browser"></i></li>
+                                    <li><i className="fab fa-facebook"></i></li>
+                                    <li><i className="fab fa-twitter-square"></i></li>
+                                    <li><i className="fab fa-instagram"></i></li>
+                                    <li><i className="fab fa-google-plus-g"></i></li>
+                                    <li><i className="far fa-browser"></i></li>
                                 </ul>
 
                             </div>
                             <div className="contact-three-sub-2">
-                            <i class="fal fa-phone-alt"></i><span>+91 123 4556 789</span>
+                            <i className="fal fa-phone-alt"></i><span>+91 123 4556 789</span>
                                 
                             </div>
                             <div className="contact-three-sub-3">
-                            <i class="fal fa-envelope-open"></i><span>Support@info.com</span>
+                            <i className="fal fa-envelope-open"></i><span>Support@info.com</span>
                             </div>
                         </div>
                     </div>

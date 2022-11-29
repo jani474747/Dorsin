@@ -1,7 +1,12 @@
 
+:root {
+    --color: green;
+}
+
 #contact {
     width: 100%;
     box-sizing: border-box;
+    margin-top:5%;
 }
 .contact {
     width: 100%;
@@ -30,6 +35,7 @@
     width: 5%;
     height: 2px;
     background-color: red;
+    fill: var(--color, red);
 }
 .contact-one-sub-content p {
     color: #95a0ab ;
@@ -99,6 +105,7 @@
 .contact-two-sub-2 button {
     padding: 14px 16px;
     background-color: red;
+    fill: var(--color, red);
     color: white;
     position: relative;
     top:0;
@@ -136,6 +143,7 @@
 }
 .contact-three-sub-1 li:hover i {
     color:red;
+    fill: var(--color, red);
 }
 .contact-three-sub-1 i {
     font-size: 30px;
@@ -268,19 +276,19 @@
 
 @media screen and (min-width:320px) and (max-width:1023px) {
         .contact-one-sub {width: 100%;}
-        .contact-one-sub-content {width: 70%;}
+        .contact-one-sub-content {width: 100%;}
 
-        .contact-two-sub {width: 70%; flex-direction: column;
+        .contact-two-sub {width: 90%; flex-direction: column;
         align-items: center; }
-        .contact-two-sub-1 {width: 70%;}
-        .contact-two-sub-2 {width: 70%;}
+        .contact-two-sub-1 {width: 100%;}
+        .contact-two-sub-2 {width: 100%;}
         .contact-two-sub-2 .inp1 {width: 98%;margin: 10px 0;}
         .contact-two-sub-2 .inp2 {width: 98%;}
         .contact-two-sub-2 button {margin:20px 0 0 55%;}
 
         .contact-three-sub {width: 70%; flex-direction: column;
         }
-        .contact-three-sub-1 {width: 70%;}
+        .contact-three-sub-1 {width: 100%;}
         .contact-three-sub-2 {width: 70%; justify-content: start;
         margin: 10px 0;}
         .contact-three-sub-3 {width: 70%; justify-content: start;}
@@ -295,10 +303,10 @@
         .contact-four-sub-4 p {width: 100%;}
         .contact-four-sub-4 input {width: 100%;}
 
-        .contact-five-sub {width: 70%; flex-direction: column; }
+        .contact-five-sub {width: 80%; flex-direction: column; }
         .contact-five-sub-1 {width: 70%;
             box-sizing: border-box;margin-left: 35px;}
-        .contact-five-sub-2 {width: 70%;}
+        .contact-five-sub-2 {width: 100%;}
  }
 
  @media screen and (min-width:1024px) and (max-width:1700px) {
