@@ -10,7 +10,7 @@ function Navbar() {
 //   const scroller = useRef();
   function changeBackground() {
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     if (window.scrollY > 80) {
       setNavbar(true);
     } else {

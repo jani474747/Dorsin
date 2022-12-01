@@ -6,7 +6,7 @@ function Settings() {
     const color = getComputedStyle(document.documentElement).getPropertyValue(
       "--red"
     );
-    console.log(color);
+    // console.log(color);
   }, []);
 
   const setColor = (newColor) => {
