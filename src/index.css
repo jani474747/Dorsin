@@ -10,7 +10,6 @@
   --burlywood : burlywood,
   --palegreen : palegreen, 
 
-  
 }
 
 .state1{
@@ -44,7 +43,6 @@
 
 
 body {
-  scroll-behavior: smooth;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -237,18 +235,18 @@ code {
 }
 
 @media screen and (min-width:320px) and (max-width:1023px) {
-      .blog-one-sub { width: 100%;}
-      .blog-one-sub-content {width: 100%;}
+      .blog-one-sub { width: 100%;};
+      .blog-one-sub-content {width: 100%;};
       .blog-two-sub {width: 100%; flex-direction: column;
-      align-items: center; }
-      .blog-two-sub-1 {width: 100%;}
+      align-items: center};
+      .blog-two-sub-1 {width: 100%};
       .blog-two-sub-2 {width: 100%;padding: 30px 0;}
-      .blog-two-sub-3 {width: 100%;}
+      .blog-two-sub-3 {width: 100%}
 }
 @media screen and (min-width:1024px) and (max-width:11000px) {
-  .blog-one-sub { width: 100%;}
-  .blog-one-sub-content {width: 100%;}
-  .blog-two-sub {width: 100%; }
+  .blog-one-sub { width: 100%}
+  .blog-one-sub-content {width: 100%}
+  .blog-two-sub {width: 100% }
 }
 
 
@@ -533,44 +531,44 @@ code {
 
 
 @media screen and (min-width:320px) and (max-width:1023px) {
-      .contact-one-sub {width: 100%;}
-      .contact-one-sub-content {width: 100%;}
+      .contact-one-sub {width: 100%}
+      .contact-one-sub-content {width: 100%}
 
       .contact-two-sub {width: 90%; flex-direction: column;
       align-items: center; }
-      .contact-two-sub-1 {width: 100%;}
-      .contact-two-sub-2 {width: 100%;}
+      .contact-two-sub-1 {width: 100%}
+      .contact-two-sub-2 {width: 100%}
       .contact-two-sub-2 .inp1 {width: 98%;margin: 10px 0;}
-      .contact-two-sub-2 .inp2 {width: 98%;}
-      .contact-two-sub-2 button {margin:20px 0 0 55%;}
+      .contact-two-sub-2 .inp2 {width: 98%}
+      .contact-two-sub-2 button {margin:20px 0 0 55%}
 
       .contact-three-sub {width: 70%; flex-direction: column;
       }
-      .contact-three-sub-1 {width: 100%;}
+      .contact-three-sub-1 {width: 100%}
       .contact-three-sub-2 {width: 70%; justify-content: flex-start;
       margin: 10px 0;}
       .contact-three-sub-3 {width: 70%; justify-content: flex-start;}
       
       .contact-four-sub {width: 70%; flex-direction: column;
       justify-content: flex-start;}
-      .contact-four-sub-1 {width: 100%;}
-      .contact-four-sub-2 {width: 100%;}
-      .contact-four-sub-3 {width: 100%;}
+      .contact-four-sub-1 {width: 100%}
+      .contact-four-sub-2 {width: 100%}
+      .contact-four-sub-3 {width: 100%}
       .contact-four-sub-4 {width: 100%; margin-left: 35px;
       box-sizing: border-box;}
-      .contact-four-sub-4 p {width: 100%;}
-      .contact-four-sub-4 input {width: 100%;}
+      .contact-four-sub-4 p {width: 100%}
+      .contact-four-sub-4 input {width: 100%}
 
       .contact-five-sub {width: 80%; flex-direction: column; }
       .contact-five-sub-1 {width: 70%;
           box-sizing: border-box;margin-left: 35px;}
-      .contact-five-sub-2 {width: 100%;}
+      .contact-five-sub-2 {width: 100%}
 }
 
 @media screen and (min-width:1024px) and (max-width:1700px) {
-  .contact-one-sub {width: 70%;}
-  .contact-one-sub-content {width: 60%;}
-  .contact-two-sub {width: 70%;  }
+  .contact-one-sub {width: 70%}
+  .contact-one-sub-content {width: 60%}
+  .contact-two-sub {width: 70% }
   .contact-two-sub-2 .inp1 {
       width: 98%; margin-bottom: 20px;
   }
@@ -581,9 +579,9 @@ code {
       margin: 20px 0 0 70%
   }
 
-  .contact-three-sub {width: 70%;}
+  .contact-three-sub {width: 70%}
   
-  .contact-four-sub {width: 70%;}
+  .contact-four-sub {width: 70%}
   
 
   .contact-five-sub {width: 70%; }
@@ -729,21 +727,21 @@ code {
 
 @media screen and (min-width:320px) and (max-width:1023px) {
 
-  .feature { width: 100%; }
+  .feature { width: 100% }
   .feature-one { flex-direction: column; }
   .feature-one-1 {width: 90%; padding: 0;margin-left:20px}
   .feature-one-2 {width: 100%; margin-top:10%}
-  .feature-two-context {width: 100%;}
-  .wave img {height: 22px;}
+  .feature-two-context {width: 100%}
+  .wave img {height: 22px}
 
 }
 @media screen and (min-width:1024px) and (max-width:1900px) {
 
-  .feature { width: 90%; }
+  .feature { width: 90%}
   
   
-  .feature-two-context {width: 90%;}
-  .wave img {height: 35px;}
+  .feature-two-context {width: 90%}
+  .wave img {height: 35px}
 
 }
 
@@ -872,9 +870,9 @@ code {
 
 @media screen and (min-width:1024px) and (max-width:1900px) {
  
-  #home h1{font-size: 40px;}
-  .home-sub-one {width: 90%;}
-  .wave img {height: 35px;}
+  #home h1{font-size: 40px}
+  .home-sub-one {width: 90%}
+  .wave img {height: 35px}
 }
 
 /* ------------------------------Navbar-------------------------------- */
@@ -1238,17 +1236,17 @@ code {
 }
 
 @media screen and (min-width:320px) and (max-width:1023px) {
-  .pricing {width: 100%;}
+  .pricing {width: 100%}
   .pricing-one-content {width: 100%; line-height: 1.4}
   .pricing-two {flex-direction: column;align-items: center; margin-top: 5%}
-  .pricing-two-1 {width: 100%;}
+  .pricing-two-1 {width: 100%}
   .pricing-two-2 {width: 100%; margin: 10px 0;}
-  .pricing-two-3 {width: 100%;}
+  .pricing-two-3 {width: 100%}
 
 }
 @media screen and (min-width:1024px) and (max-width:1900px) {
-  .pricing {width: 90%;}
-  .pricing-one-content {width: 60%;}
+  .pricing {width: 90%}
+  .pricing-one-content {width: 60%}
   
   
 
@@ -1460,23 +1458,23 @@ code {
       .service-one {
           width: 100%;
       }
-      .service-one-content {width: 100%;}
-      .service-two { width: 100%; }
+      .service-one-content {width: 100%}
+      .service-two { width: 100% }
       .service-two-content { flex-direction: column; }
-      .service-two-content1 { width: 100%; }
-      .service-two-content2 { width: 100%; }
-      .service-two-content3 { width: 100%; }
-      .service-two-content4 { width: 100%; }
-      .service-two-content5 { width: 100%; }
-      .service-two-content6 { width: 100%; }
+      .service-two-content1 { width: 100% }
+      .service-two-content2 { width: 100% }
+      .service-two-content3 { width: 100% }
+      .service-two-content4 { width: 100% }
+      .service-two-content5 { width: 100% }
+      .service-two-content6 { width: 100% }
 }
 
 @media screen and (min-width:1024px) and (max-width:1900px) {
   .service-one {
       width: 70%;
   }
-  .service-one-content {width:60%;}
-  .service-two { width:70%; }
+  .service-one-content {width:60%}
+  .service-two { width:70% }
   
   
 
@@ -1654,17 +1652,17 @@ code {
 /*  two -flex-end */ 
 
 @media screen and (min-width:320px) and (max-width:1023px) {
-      .team {width: 100%;}
-      .team-one-content {width: 100%;}
-      .team-two {flex-direction: column; align-items: center;}
-      .team-two-1 {width: 90%;}
-      .team-two-2 {width: 90%;}
-      .team-two-3 {width: 90%;}
-      .team-two-4 {width: 90%;}
+      .team {width: 100%}
+      .team-one-content {width: 100%}
+      .team-two {flex-direction: column; align-items: center}
+      .team-two-1 {width: 90%}
+      .team-two-2 {width: 90%}
+      .team-two-3 {width: 90%}
+      .team-two-4 {width: 90%}
 }
 @media screen and (min-width:1024px) and (max-width:1900px) {
-  .team {width: 90%;}
-  .team-one-content {width: 60%;}
+  .team {width: 90%}
+  .team-one-content {width: 60%}
   
 }
 

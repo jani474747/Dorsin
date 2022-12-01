@@ -1,15 +1,15 @@
-import { useState, useRef } from "react";
+import { useState } from "react";
 // import './Nav.css';
 import "../../../index.css";
-import { scrollTo } from "react-scroll-to";
+// import { scrollTo } from "react-scroll-to";
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const [ans, setAns] = useState(true);
-  const ref = useRef(null);
+//   const ref = useRef(null);
 //   const scroller = useRef();
   function changeBackground() {
-    var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+    // var scrolled = window.pageYOffset || document.documentElement.scrollTop;
     // console.log(window.scrollY);
     if (window.scrollY > 80) {
       setNavbar(true);
@@ -34,12 +34,12 @@ function Navbar() {
 //       : scroller.current.classList.remove("parent-nav");
 //   };
 
-const Scroller = (e) =>{
-    e.preventDefault();
-    document.querySelector('href').scrollIntoView({
-        behavior: 'smooth'
-    })
-}
+// const Scroller = (e) =>{
+//     e.preventDefault();
+//     document.querySelector('href').scrollIntoView({
+//         behavior: 'smooth'
+//     })
+// }
 
   return (
     <section>
@@ -48,7 +48,7 @@ const Scroller = (e) =>{
           <div className="header-logo">
             <h2>DORSIN</h2>
           </div>
-          <div onClick={Scroller} className="header-menu">
+          <div className="header-menu">
             <ul>
               <li>
                 <a href="#home">Home</a>

@@ -1,23 +1,24 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect } from "react";
 import "../../index.css";
 
 function Settings() {
   useEffect(() => {
-    const color = getComputedStyle(document.documentElement).getPropertyValue(
+    // const color = 
+    getComputedStyle(document.documentElement).getPropertyValue(
       "--red"
-    );
+      );
     // console.log(color);
   }, []);
-
+  
   const setColor = (newColor) => {
     document.documentElement.style.setProperty("--red", newColor);
   };
-
+  
+  const settingElement = useRef();
   // const handleChangeColor = (e) => {
   //   e.preventDefault();
   // };
 
-  const settingElement = useRef();
 
   const handleClickCollapse = () => {
     settingElement.current.classList.toggle("open");
