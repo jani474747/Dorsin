@@ -9,12 +9,12 @@ import Navbar from './Navbar/Navbar'
 import Home from './Home/Home'
 import Wave from './Wave/Wave'
 import Setcolor from '../SetColor/Setcolor'
-
+import '../../index.css'
 
 
 const Router = () => {
   return (
-    <div>
+    <div className='State1'>
       <Navbar/>
       <Home/>
       <Service/>

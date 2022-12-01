@@ -1,6 +1,7 @@
 import React from 'react'
 import wave from "../Images/bg-pattern.png"
-import './Wave.css'
+// import './Wave.css'
+import "../../../index.css"
 
 const Wave = () => {
   return (

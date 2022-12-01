@@ -7,6 +7,9 @@
     background-position: center;
     position: relative;
 }
+:root{
+    --color: red;
+    }
 .team2-five-sub {
     width: 100%;
     background: linear-gradient(to right, #512da8, #711e72);

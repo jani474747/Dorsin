@@ -1,4 +1,5 @@
-import './contact.css'
+// import './contact.css'
+import "../../../index.css"
 import pay from '../Images/payment.png'
 
 const  Contact = () => {
@@ -10,7 +11,7 @@ const  Contact = () => {
                         <div className="contact-one-sub">
                             <div className="contact-one-sub-content">
                                 <h1>GET IN TOUCH</h1>
-                                <hr/>
+                                <hr className='horzclass'/>
                                 <p>We thrive when coming up with innovative ideas but also understand that
                                     a smart concept should be supported with measurable results.</p>
 

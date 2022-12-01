@@ -1,4 +1,5 @@
-import './Services.css'
+// import './Services.css'
+import "../../../index.css"
 
 const Service = () => {
 

@@ -1,0 +1,62 @@
+@import '../SetColor/Setcolor.css';
+@import '../Pages/Team1/Team.css';
+@import '../../index.css';
+
+body {
+  --color : #fb3e3e;
+     --color: #fb3e3e; 
+    --hr: #fb3e3e;
+    // --background-color : #fb3e3e;
+  
+    // background-color: var(--color);
+    color: var(--text-color);
+  }
+@media screen and (prefers-color-scheme: #fb3e3e) {
+    body {
+       --color: #fb3e3e;
+      --hr: #fb3e3e;
+    }
+}
+  
+@media screen and (prefers-color-scheme: #1bbc9d) {
+    body {
+      --color: #1bbc9d;
+      --hr: #1bbc9d;
+    }
+}
+@media screen and (prefers-color-scheme: #f85f89) {
+    body {
+      --color: #f85f89;
+      --hr: #f85f89;
+    }
+}
+@media screen and (prefers-color-scheme: #00e6e6) {
+   body {
+      --color: #00e6e6;
+      --hr: #00e6e6;
+    }
+}
+@media screen and (prefers-color-scheme: #704fff) {
+   body {
+      --color: #704fff;
+      --hr: #704fff;
+    }
+}
+@media screen and (prefers-color-scheme: #2762da) {
+   body {
+      --color: #2762da;
+      --hr: #2762da;
+    }
+}
+@media screen and (prefers-color-scheme: #f09105) {
+   body {
+      --color: #f09105;
+      --hr: #f09105;
+    }
+}
+@media screen and (prefers-color-scheme: #f6cb42) {
+   body {
+      --color: #f6cb42;
+      --hr: #f6cb42;
+    }
+}

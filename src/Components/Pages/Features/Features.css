@@ -5,6 +5,11 @@
     background-color: #f8f9fa;
     margin-top: 5%;
 }
+
+:root{
+    --logo-color: red;
+    }
+
 .feature {
     width: 60%;
     margin: auto;

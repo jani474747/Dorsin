@@ -9,6 +9,11 @@
     margin: auto;
      
 }
+
+:root{
+    --color: red;
+    }
+    
 .pricing-one {
     width: 70%;
     margin-bottom: 20px;
@@ -133,7 +138,6 @@
 }
 .pricing-two-2 a {
     background-color: red;
-    fill: var(--color, red);
     padding: 10px 14px;
     border-radius: 5px;
     text-decoration: none;
@@ -183,7 +187,6 @@
 }
 .pricing-two-3 a {
     background-color: red;
-    fill: var(--color, red);
     padding: 10px 14px;
     border-radius: 5px;
     text-decoration: none;

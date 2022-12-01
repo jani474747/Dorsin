@@ -1,4 +1,5 @@
-import './Features.css';
+// import './Features.css';
+import "../../../index.css"
 import logo from '../Images/online-world.svg';
 import wave from '../Images/bg-pattern.png'
 

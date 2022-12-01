@@ -1,4 +1,5 @@
-import './Home.css'
+// import './Home.css'
+import "../../../index.css"
 import wave from '../Images/bg-pattern.png'
 
 function Home(){

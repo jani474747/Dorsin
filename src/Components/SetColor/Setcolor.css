@@ -1,3 +1,13 @@
+:root{
+  --bg-color: blue;
+  /* --logo-size: 40vmin;
+  --logo-speedTiming: 20s; */
+}
+
+hr {
+  fill : var(--bg-color)
+}
+
 #setting {
     position: fixed;
     width: 189px;
@@ -9,6 +19,8 @@
     transition: all 0.2s 0.1s;
     transform: translate(-100%);
   }
+  
+
   #setting.open {
     transform: translate(0);
     
@@ -18,8 +30,8 @@
     top: 0;
     right: 0;
     background: #2b2424;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     padding: 3px;
     display: flex;
     justify-content: center;
@@ -30,7 +42,7 @@
 
 
   #setting i {
-    font-size: 25px;
+    font-size: 20px;
     animation-name: setting;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -45,6 +57,54 @@
       transform: rotate(360deg);
     }
   }
+
+
+  .setting-color button {
+    width: 30px; height:30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin:7px;
+    border:1px solid transparent;
+}
+.setting-color .sp1 {
+    background-color: red;
+    fill: var(--color, red);
+}
+.setting-color .sp2 {
+    background-color: blue;
+    fill: var(--color, blue);
+}
+.setting-color .sp3 {
+    background-color: green;
+    fill: var(--color, green);
+}
+.setting-color .sp4 {
+    background-color: pink;
+    fill: var(--color, pink);
+}
+.setting-color .sp5 {
+    background-color: black;
+    fill: var(--color, black);
+}
+.setting-color .sp6 {
+    background-color: gold;
+    fill: var(--color, gold);
+}
+.setting-color .sp7 {
+    background-color: saddlebrown;
+    fill: var(--color, saddlebrown);
+}
+.setting-color .sp8 {
+    background-color: burlywood;
+    fill: var(--color, burlywood);
+}
+.setting-color .sp9 {
+    background-color: palegreen;
+    fill: var(--color, palegreen);
+}
+
+
+
   
   .choose-color {
     padding: 10px 20px;

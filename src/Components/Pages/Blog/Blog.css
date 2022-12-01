@@ -1,9 +1,11 @@
-
 #blog {
     width: 100%;
     box-sizing: border-box;
     martgin-top:5%;
 }
+
+
+    
 .blog {
     width: 100%;
     
@@ -49,7 +51,7 @@
     height: 1px;
     background-color: red;
     border:1px solid red;
-    fill: var(--color, red);
+   
 }
 .blog-two-sub-1 h4{
    color : #95a0ab;
@@ -98,12 +100,12 @@
 .blog-two-sub-1 h4:hover {
     color:red;
     cursor: pointer;
-    fill: var(--color, red);
+   
 }
 .blog-two-sub-1 a {
     text-decoration: none;
     color:red;
-    fill: var(--color, red);
+   
    
 }
 .blog-two-sub-1 a:hover {
@@ -129,13 +131,13 @@
 }
 .blog-two-sub-2 h4:hover {
     color:red;
-    fill: var(--color, red);
+   
     cursor: pointer;
 }
 .blog-two-sub-2 a {
     text-decoration: none;
     color:red;
-    fill: var(--color, red);
+   
 }
 .blog-two-sub-2 a:hover {
     color:black;
@@ -160,14 +162,14 @@
     color: #95a0ab ;
 }
 .blog-two-sub-3 h4:hover {
-    color:red;
+    --color:red;
     cursor: pointer;
-    fill: var(--color, red);
+   
 }
 .blog-two-sub-3 a {
     text-decoration: none;
     color:red;
-    fill: var(--color, red);
+   
 }
 .blog-two-sub-3 a:hover {
     color:black;

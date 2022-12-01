@@ -1,7 +1,5 @@
 
-:root {
-    --color: green;
-}
+    
 
 #contact {
     width: 100%;
@@ -32,10 +30,13 @@
     font-family: "Poppins", sans-serif;
 }
 .contact-one-sub-content hr {
-    width: 5%;
-    height: 2px;
+    width: 8%;
+    height: 1px;
     background-color: red;
     fill: var(--color, red);
+    border:1px solid red;
+    border-radius:10px;
+
 }
 .contact-one-sub-content p {
     color: #95a0ab ;
@@ -273,6 +274,10 @@
 .p_tag {
     color: white;
 }
+
+:root{
+    --logo-color: red;
+    }
 
 @media screen and (min-width:320px) and (max-width:1023px) {
         .contact-one-sub {width: 100%;}

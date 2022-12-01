@@ -26,10 +26,12 @@
     font-family: "Poppins", sans-serif;
 }
 .service-one hr {
-    width: 5%;
-    height:2px;
+    width: 7%;
+    height:1px;
     background-color: red;
     fill: var(--color, red);
+    border:1px solid red;
+    border-radius:15px
 }
 
 .service-two {

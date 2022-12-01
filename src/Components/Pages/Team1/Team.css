@@ -9,6 +9,7 @@
     margin: auto;
      
 }
+
 .team-one {
     width: 100%;
 }
@@ -30,10 +31,12 @@
     font-family: "Poppins", sans-serif;
 }
 .team-one-content hr {
-    width: 5%;
-    height: 2px;
-    background-color: red;
-    fill: var(--color, red);
+    width: 6%;
+    height: 1px;
+    fill: var(--bg-color, red);
+    /* background-color: red; */
+    border:1px solid transparent;
+    border-radius:10px;
 }
 .team-one-content p {
     color: #95a0ab ;
