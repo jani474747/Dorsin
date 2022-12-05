@@ -1,7 +1,7 @@
 import React from 'react'
 import wave from "../Images/bg-pattern.png"
 // import './Wave.css'
-import "../../../index.css"
+import "../../../AllCss.css"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Wave = () => {

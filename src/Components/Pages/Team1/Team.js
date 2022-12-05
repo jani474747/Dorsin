@@ -1,5 +1,5 @@
 // import './Team.css';
-import "../../../index.css"
+import "../../../AllCss.css"
 import team1 from '../Images/team1.jpg';
 import team2 from '../Images/team2.jpg';
 import team3 from '../Images/team3.jpg';

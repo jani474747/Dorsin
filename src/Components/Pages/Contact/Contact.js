@@ -1,5 +1,5 @@
 // import './contact.css'
-import "../../../index.css"
+import "../../../AllCss.css"
 import pay from '../Images/payment.png'
 
 const  Contact = () => {

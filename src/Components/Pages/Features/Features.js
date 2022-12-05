@@ -1,5 +1,5 @@
 // import './Features.css';
-import "../../../index.css"
+import "../../../AllCss.css"
 import logo from '../Images/online-world.svg';
 import wave from '../Images/bg-pattern.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
@@ -20,7 +20,7 @@ const Feature = () => {
                             <li>Sed ut perspiciatis unde omnis iste natus error sit.</li>
                             <li>Submit Your Orgnization.</li>
                         </ul>
-                        <AnchorLink href="#features">Learn More <i class="fas fa-arrow-alt-right"></i></AnchorLink>
+                        <AnchorLink href="#features">Learn More <i className="fas fa-arrow-alt-right"></i></AnchorLink>
 
                     </div>
                     <div className="feature-one-2">

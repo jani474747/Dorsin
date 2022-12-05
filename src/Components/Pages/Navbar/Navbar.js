@@ -1,66 +1,60 @@
-import { useState } from "react";
-// import './Nav.css';
-import "../../../index.css";
-// import { scrollTo } from "react-scroll-to";
-import AnchorLink from 'react-anchor-link-smooth-scroll'
+import react, { useState } from "react";
+import "./Nav.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
-
-function Navbar() {
-  const [navbar, setNavbar] = useState(false);
-  const [ans, setAns] = useState(true);
-//   const ref = useRef(null);
-//   const scroller = useRef();
+function Header() {
+  const [nav, setNav] = useState(false);
+  const [ans, setAn] = useState(true);
   function changeBackground() {
-    // var scrolled = window.pageYOffset || document.documentElement.scrollTop;
     // console.log(window.scrollY);
     if (window.scrollY > 80) {
-      setNavbar(true);
+      setNav(true);
     } else {
-      setNavbar(false);
+      setNav(false);
     }
   }
   window.addEventListener("scroll", changeBackground);
   const ChonMenu = () => {
     if (ans === true) {
-      document.getElementsByClassName("header-menu")[0].style.display = "block";
-      setAns(false);
+      document.getElementsByClassName("header-menu-gach")[0].style.display =
+        "block";
+      setAn(false);
     } else {
-      document.getElementsByClassName("header-menu")[0].style.display = "none";
-      setAns(true);
+      document.getElementsByClassName("header-menu-gach")[0].style.display =
+        "none";
+      setAn(true);
     }
   };
 
-
-
   return (
     <section>
-      <div className={navbar ? "header" : "header-ac"}>
-        <div className="header-sub" >
+      <div className={nav ? "header" : "header-ac"}>
+        <div className="header-sub">
           <div className="header-logo">
             <h2>DORSIN</h2>
           </div>
           <div className="header-menu">
             <ul>
               <li>
-                <AnchorLink offset='100' href="#home">Home</AnchorLink>
+                <AnchorLink href="#home">Home</AnchorLink>
               </li>
               <li>
-                <AnchorLink offset='100' href="#service">Services</AnchorLink>
+                <AnchorLink href="#service">Services</AnchorLink>
               </li>
               <li>
-                <AnchorLink offset='100' href="#feature">Features</AnchorLink>
+                <AnchorLink href="#feature">Features</AnchorLink>
               </li>
               <li>
-                <AnchorLink offset='100' href="#pricing">Pricing</AnchorLink>
+                <AnchorLink href="#pricing">Pricing</AnchorLink>
               </li>
               <li>
-                <AnchorLink offset='100' href="#team">Team</AnchorLink>
+                <AnchorLink href="#team">Team</AnchorLink>
               </li>
               <li>
-                <AnchorLink offset='100' href="#blog">Blog</AnchorLink>
+                <AnchorLink href="#blog">Blog</AnchorLink>
               </li>
               <li>
-                <AnchorLink offset='100' href="#contact">Contact</AnchorLink>
+                <AnchorLink href="#contact">Contact</AnchorLink>
               </li>
             </ul>
             <button className="btn">Try It Free</button>
@@ -69,9 +63,35 @@ function Navbar() {
             <i className="fas fa-bars"></i>
           </div>
         </div>
+        <div className="header-menu-gach">
+          <ul>
+            <li>
+              <AnchorLink href="#home">Home</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#service">Services</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#feature">Features</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#pricing">Pricing</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#team">Team</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#blog">Blog</AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#contact">Contact</AnchorLink>
+            </li>
+          </ul>
+          <button className="btn-gach">Try It Free</button>
+        </div>
       </div>
     </section>
   );
 }
 
-export default Navbar;
+export default Header;

@@ -1,5 +1,5 @@
 // import './Home.css'
-import "../../../index.css"
+import "../../../AllCss.css"
 import wave from '../Images/bg-pattern.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 

@@ -1,5 +1,5 @@
 // import './Services.css'
-import "../../../index.css"
+import "../../../AllCss.css"
 
 const Service = () => {
 
