@@ -13,31 +13,31 @@
 }
 
 .state1{
-  color : var(--red)
+  color : var(--red);
 }
 .State2{
-  color : var(--blue)
+  color : var(--blue);
 }
 .State2{
-  color : var(--green)
+  color : var(--green);
 }
 .State2{
-  color : var(--pink)
+  color : var(--pink);
 }
 .State2{
-  color : var(--black)
+  color : var(--black);
 }
 .State2{
-  color : var(--gold)
+  color : var(--gold);
 }
 .State2{
-  color : var(--saddlebrown)
+  color : var(--saddlebrown);
 }
 .State2{
-  color : var(--burlywood)
+  color : var(--burlywood);
 }
 .State2{
-  color : var(--palegreen)
+  color : var(--palegreen);
 }
 
 
@@ -76,7 +76,7 @@ code {
   text-align: center;
 }
 .blog-one-sub-content-firstP{
-  width : 50%;
+  width : 80%;
   text-align: center;
   margin: auto;
   margin-top: 1%;
@@ -92,7 +92,7 @@ code {
   margin-bottom: 30px;
 }
 .blog-one-sub {
-  width: 60%;
+  width: 0%;
  
   margin: auto;
    
@@ -129,7 +129,7 @@ code {
 }
 
 .blog-two {
-  width: 70%;
+  width: 100%;
   padding-bottom: 50px;
   background-color: white;
   margin: auto;
@@ -241,12 +241,12 @@ code {
       align-items: center};
       .blog-two-sub-1 {width: 100%};
       .blog-two-sub-2 {width: 100%;padding: 30px 0;}
-      .blog-two-sub-3 {width: 100%}
+      .blog-two-sub-3 {width: 100%};
 }
 @media screen and (min-width:1024px) and (max-width:11000px) {
-  .blog-one-sub { width: 100%}
-  .blog-one-sub-content {width: 100%}
-  .blog-two-sub {width: 100% }
+  .blog-one-sub { width: 100%};
+  .blog-one-sub-content {width: 100%};
+  .blog-two-sub {width: 100% };
 }
 
 

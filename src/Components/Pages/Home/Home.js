@@ -1,6 +1,7 @@
 // import './Home.css'
 import "../../../index.css"
 import wave from '../Images/bg-pattern.png'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Home(){
     
@@ -12,7 +13,7 @@ function Home(){
                         <h1>We help startups launch their products</h1>
                         <p>Etiam sed.Interdum consequat proin vestibulum class at a euismod mus luctus quam.
                             Lorem ipsum dolor sit amet, consectetur adipisicing eli.</p>
-                        <a href="#">Get Started <i className="fas fa-arrow-alt-right"></i></a>
+                        <AnchorLink href="#home">Get Started <i className="fas fa-arrow-alt-right"></i></AnchorLink>
                           
                     </div>
                     <div className="home-content-2">

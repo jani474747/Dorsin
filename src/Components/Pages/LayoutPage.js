@@ -20,8 +20,8 @@ const Router = () => {
       <Service/>
       <Setcolor />
       <Features/>
-      <Team/>
       <Pricing/>
+      <Team/>
       <Wave/>
       <Blog/>
       <Contact/>

@@ -2,6 +2,8 @@ import { useState } from "react";
 // import './Nav.css';
 import "../../../index.css";
 // import { scrollTo } from "react-scroll-to";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -28,18 +30,7 @@ function Navbar() {
     }
   };
 
-//   window.onscroll = () => {
-//     window.scrollY > 80
-//       ? scroller.current.classList.add("parent-nav")
-//       : scroller.current.classList.remove("parent-nav");
-//   };
 
-// const Scroller = (e) =>{
-//     e.preventDefault();
-//     document.querySelector('href').scrollIntoView({
-//         behavior: 'smooth'
-//     })
-// }
 
   return (
     <section>
@@ -51,25 +42,25 @@ function Navbar() {
           <div className="header-menu">
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <AnchorLink offset='100' href="#home">Home</AnchorLink>
               </li>
               <li>
-                <a href="#service">Services</a>
+                <AnchorLink offset='100' href="#service">Services</AnchorLink>
               </li>
               <li>
-                <a href="#feature">Features</a>
+                <AnchorLink offset='100' href="#feature">Features</AnchorLink>
               </li>
               <li>
-                <a href="#pricing">Pricing</a>
+                <AnchorLink offset='100' href="#pricing">Pricing</AnchorLink>
               </li>
               <li>
-                <a href="#team">Team</a>
+                <AnchorLink offset='100' href="#team">Team</AnchorLink>
               </li>
               <li>
-                <a href="#blog">Blog</a>
+                <AnchorLink offset='100' href="#blog">Blog</AnchorLink>
               </li>
               <li>
-                <a href="#contact">Contact</a>
+                <AnchorLink offset='100' href="#contact">Contact</AnchorLink>
               </li>
             </ul>
             <button className="btn">Try It Free</button>

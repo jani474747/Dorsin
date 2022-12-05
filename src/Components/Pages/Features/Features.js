@@ -2,6 +2,7 @@
 import "../../../index.css"
 import logo from '../Images/online-world.svg';
 import wave from '../Images/bg-pattern.png'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Feature = () => {
 
@@ -19,7 +20,7 @@ const Feature = () => {
                             <li>Sed ut perspiciatis unde omnis iste natus error sit.</li>
                             <li>Submit Your Orgnization.</li>
                         </ul>
-                        <a href="#">Learn More <i class="fas fa-arrow-alt-right"></i></a>
+                        <AnchorLink href="#features">Learn More <i class="fas fa-arrow-alt-right"></i></AnchorLink>
 
                     </div>
                     <div className="feature-one-2">
@@ -34,7 +35,7 @@ const Feature = () => {
                     <div className="feature-two-context">
                         <h2>Build your dream website today</h2>
                         <p>But nothing the copy said could convince her and so it didn’t take long until a few <br/>insidious Copy Writers ambushed her.</p>
-                        <a href="#">View Plan & Pricing</a>
+                        <AnchorLink href="#features">View Plan & Pricing</AnchorLink>
                     </div>
                 </div>
                 <div className="wave">

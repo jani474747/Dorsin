@@ -1,6 +1,7 @@
 import React from 'react'
 // import './pricing.css'
 import "../../../index.css"
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Pricing = () => {
   return (
@@ -24,7 +25,7 @@ const Pricing = () => {
             <p className="p3">Support: <b>No</b></p>
             <p className="p4">Domain: <b>1</b></p>
             <p className="p5">Hidden Fees: <b>No</b></p>
-            <a href="#">Join Now</a>
+            <AnchorLink href="#principle">Join Now</AnchorLink>
           </div>
           <div className='pricing-two-2'>
             <h4>ECONOMY</h4>
@@ -36,7 +37,7 @@ const Pricing = () => {
             <p className="p10">Support: <b>Yes</b></p>
             <p className="p10">Domain: <b>10</b></p>
             <p className="p10">Hidden Fees: <b>No</b></p>
-            <a href="#">Join Now</a>
+            <AnchorLink href="#principle">Join Now</AnchorLink>
           </div>
           <div className='pricing-two-2'>
             <h4>ECONOMY</h4>
@@ -48,7 +49,7 @@ const Pricing = () => {
             <p className="p10">Support: <b>Yes</b></p>
             <p className="p10">Domain: <b>unlimited</b></p>
             <p className="p10">Hidden Fees: <b>No</b></p>
-            <a className ="a10" href="#">Join Now</a>
+            <AnchorLink className ="a10" href="#principle">Join Now</AnchorLink>
           </div>
         </div>
       </div>

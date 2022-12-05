@@ -4,6 +4,7 @@ import "../../../index.css"
 import blog1 from '../Images/blog1.jpg';
 import blog2 from '../Images/blog2.jpg';
 import blog3 from '../Images/blog3.jpg';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 const Blog = () => {
@@ -26,21 +27,21 @@ const Blog = () => {
               <h5>UI & UX Design</h5>
               <h4>Doing a cross country road trip</h4>
               <p>She packed her seven versalia, put her initial into the belt and made herself on the way..</p>
-              <a className = 'horzclass' href='#blog'>Read More<i className="far fa-arrow-right"></i></a>
+              <AnchorLink className = 'horzclass' href='#blog'>Read More<i className="far fa-arrow-right"></i></AnchorLink>
             </div>
             <div className='blog-two-sub-2'>
             <img src = {blog2} alt = 'blog2'/>
               <h5>Digital Marketing</h5>
               <h4>New exhibition at our Museum</h4>
               <p>Pityful a rethoric question ran over her cheek, then she continued her way..</p>
-              <a className = 'horzclass' href='#blog'>Read More<i className="far fa-arrow-right"></i></a>
+              <AnchorLink className = 'horzclass' href='#blog'>Read More<i className="far fa-arrow-right"></i></AnchorLink>
             </div>
             <div className='blog-two-sub-3'>
             <img src = {blog3} alt = 'blog3'/>
               <h5>Travelling</h5>
               <h4>Why are so many people..</h4>
               <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia..</p>
-              <a className = 'horzclass' href='#blog'>Read More<i className="far fa-arrow-right"></i></a>
+              <AnchorLink className = 'horzclass' href='#blog'>Read More<i className="far fa-arrow-right"></i></AnchorLink>
             </div>
         </div>
       </div>
