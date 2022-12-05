@@ -66,6 +66,7 @@ code {
   martgin-top:5%;
 }
 
+
   
 .blog {
   width: 100%;
@@ -76,7 +77,7 @@ code {
   text-align: center;
 }
 .blog-one-sub-content-firstP{
-  width : 80%;
+  width : 50%;
   text-align: center;
   margin: auto;
   margin-top: 1%;
@@ -92,7 +93,7 @@ code {
   margin-bottom: 30px;
 }
 .blog-one-sub {
-  width: 0%;
+  width: 60%;
  
   margin: auto;
    
@@ -112,7 +113,7 @@ code {
   height: 1px;
   background-color: var(--red);
   border:1px solid var(--red);
-;
+ 
 }
 .blog-two-sub-1 h4{
  color : #95a0ab;
@@ -129,7 +130,7 @@ code {
 }
 
 .blog-two {
-  width: 100%;
+  width: 70%;
   padding-bottom: 50px;
   background-color: white;
   margin: auto;
@@ -161,11 +162,12 @@ code {
 .blog-two-sub-1 h4:hover {
   color:var(--red);
   cursor: pointer;
+ 
 }
 .blog-two-sub-1 a {
   text-decoration: none;
   color:var(--red);
-  background:transparent;
+  background-color:transparent;
  
  
 }
@@ -173,7 +175,7 @@ code {
   color:black;
 }
 
-/*  sub1-flex-end */
+/*  sub1-end */
 .blog-two-sub-2 {
   width: 32%; height: 435px;
    
@@ -192,18 +194,21 @@ code {
 }
 .blog-two-sub-2 h4:hover {
   color:var(--red);
+ background-color:transparent;
   cursor: pointer;
 }
 .blog-two-sub-2 a {
   text-decoration: none;
   color:var(--red);
-  background:transparent;
+  background-color:transparent;
+  
+ 
 }
 .blog-two-sub-2 a:hover {
   color:black;
 }
 
-/* flex-end sub-2 */
+/* end sub-2 */
 
 .blog-two-sub-3 {
   width: 32%; height: 435px;
@@ -222,33 +227,35 @@ code {
   color: #95a0ab ;
 }
 .blog-two-sub-3 h4:hover {
-  color:var(--red);
+  --color:var(--red);
   cursor: pointer;
+  background-color:transparent;
+ 
 }
 .blog-two-sub-3 a {
   text-decoration: none;
   color:var(--red);
-  background:transparent;
+  background-color:transparent;
+ 
 }
 .blog-two-sub-3 a:hover {
   color:black;
 }
 
 @media screen and (min-width:320px) and (max-width:1023px) {
-      .blog-one-sub { width: 100%;};
-      .blog-one-sub-content {width: 100%;};
+      .blog-one-sub { width: 100%;}
+      .blog-one-sub-content {width: 100%;}
       .blog-two-sub {width: 100%; flex-direction: column;
-      align-items: center};
-      .blog-two-sub-1 {width: 100%};
-      .blog-two-sub-2 {width: 100%;padding: 30px 0;}
-      .blog-two-sub-3 {width: 100%};
+      align-items: center; }
+      .blog-two-sub-1 {width: 120%; margin-top: 5%}
+      .blog-two-sub-2 {width: 120%;margin-top: 5%;padding: 30px 0;}
+      .blog-two-sub-3 {width: 120%;margin-top: 5%}
 }
 @media screen and (min-width:1024px) and (max-width:11000px) {
-  .blog-one-sub { width: 100%};
-  .blog-one-sub-content {width: 100%};
-  .blog-two-sub {width: 100% };
+  .blog-one-sub { width: 100%;}
+  .blog-one-sub-content {width: 100%; }
+  .blog-two-sub {width: 100%; }
 }
-
 
 
 /* --------------------------------------Contact----------------------------------------------- */
@@ -542,7 +549,7 @@ code {
       .contact-two-sub-2 .inp2 {width: 98%}
       .contact-two-sub-2 button {margin:20px 0 0 55%}
 
-      .contact-three-sub {width: 70%; flex-direction: column;
+      .contact-three-sub {width: 100%; margin-left:5% ;flex-direction: column;
       }
       .contact-three-sub-1 {width: 100%}
       .contact-three-sub-2 {width: 70%; justify-content: flex-start;
@@ -865,7 +872,9 @@ code {
   .home-content-2-sub img { 
       height: auto;
   }
-  .wave img {height: 22px;}
+  .wave img {height: 22px; width:100%}
+
+
 }
 
 @media screen and (min-width:1024px) and (max-width:1900px) {
@@ -952,7 +961,6 @@ code {
 .btn {
   padding:14px 20px;
   background-color: var(--red);
-  fill: var(--red, var(--red));
   color:white;
   border-radius: 30px;
   border: none;
@@ -967,42 +975,40 @@ code {
   top: 20%;
 }
 .menugach {
-   display: none;
-   --red: var(--red);
-   fill: var(--red, var(--red));
-   font-size: 30px;
-   width:50px ; height: 50px;
-   position: absolute;
-   top:20px; right:30px;
-   cursor: pointer;
+  display: none;
+  color: var(--red);
+  font-size: 30px;
+  width:50px ; height: 50px;
+  position: absolute;
+  top:20px; right:30px;
+  cursor: pointer;
 }
 .header-menu-gach {
-  width: 90%; 
-  display: none;
-  box-sizing: border-box;
-  transition: all 0.5s;
+ width: 90%; 
+ display: none;
+ box-sizing: border-box;
+ transition: all 0.5s;
 }
 .header-menu-gach ul {margin-left: 30px;}
 .header-menu-gach li {
-  padding: 20px 0;
-  list-style-type: none;
+ padding: 20px 0;
+ list-style-type: none;
 }
 .header-menu-gach a {
-  text-decoration: none;
-  color: white;
-  scroll-behavior: smooth;
+ text-decoration: none;
+ color: white;
+ scroll-behavior: smooth;
 }
 .header-menu-gach .btn-gach {
-  padding:14px 20px;
-  background-color: var(--red);
-  fill: var(--red, var(--red));
-  color:white;
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-  letter-spacing: 0.5px;
-  margin-left: 50px;
-  transition: all 0.5s;
+ padding:14px 20px;
+ background-color: var(--red);
+ color:white;
+ border-radius: 30px;
+ border: none;
+ cursor: pointer;
+ letter-spacing: 0.5px;
+ margin-left: 50px;
+ transition: all 0.5s;
 }
 
 @media screen and (min-width:320px) and (max-width:1023px) {
@@ -1022,7 +1028,7 @@ code {
 }
 
 @media screen and (min-width:1024px) and (max-width:1900px) {
-  .header-sub {width: 90%;}
+  .header-sub {width: 100%;}
   .menugach {
       display: none;
   }
@@ -1238,15 +1244,15 @@ code {
 @media screen and (min-width:320px) and (max-width:1023px) {
   .pricing {width: 100%}
   .pricing-one-content {width: 100%; line-height: 1.4}
-  .pricing-two {flex-direction: column;align-items: center; margin-top: 5%}
-  .pricing-two-1 {width: 100%}
-  .pricing-two-2 {width: 100%; margin: 10px 0;}
-  .pricing-two-3 {width: 100%}
+  .pricing-two {flex-direction: column;align-items: center; margin-top: 20%}
+  .pricing-two-1 {width: 110%; margin-top: 5%}
+  .pricing-two-2 {width: 110%; margin-top: 5%}
+  .pricing-two-3 {width: 110%; margin-top: 5%}
 
 }
 @media screen and (min-width:1024px) and (max-width:1900px) {
   .pricing {width: 90%}
-  .pricing-one-content {width: 60%}
+  .pricing-one-content {width: 100%}
   
   
 
@@ -1745,7 +1751,7 @@ code {
 @media screen and (min-width:1024px) and (max-width:1900px) {
   
   .team2-five-sub-context {width: 90%;}
-  .wave img {height: 35px;}
+  .wave img {height: 35px; width: 100%}
 }
 
 /* ---------------------------Settings----------------------------- */

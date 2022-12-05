@@ -49,8 +49,8 @@
 .blog-one-sub-content hr {
     width: 3%;
     height: 1px;
-    background-color: red;
-    border:1px solid red;
+    background-color: var(--red);
+    border:1px solid var(--red);
    
 }
 .blog-two-sub-1 h4{
@@ -98,13 +98,13 @@
     color: #95a0ab ;
 }
 .blog-two-sub-1 h4:hover {
-    color:red;
+    color:var(--red);
     cursor: pointer;
    
 }
 .blog-two-sub-1 a {
     text-decoration: none;
-    color:red;
+    color:var(--red);
    
    
 }
@@ -130,13 +130,13 @@
     color: #95a0ab ;
 }
 .blog-two-sub-2 h4:hover {
-    color:red;
+    color:var(--red);
    
     cursor: pointer;
 }
 .blog-two-sub-2 a {
     text-decoration: none;
-    color:red;
+    color:var(--red);
    
 }
 .blog-two-sub-2 a:hover {
@@ -162,13 +162,13 @@
     color: #95a0ab ;
 }
 .blog-two-sub-3 h4:hover {
-    --color:red;
+    --color:var(--red);
     cursor: pointer;
    
 }
 .blog-two-sub-3 a {
     text-decoration: none;
-    color:red;
+    color:var(--red);
    
 }
 .blog-two-sub-3 a:hover {
